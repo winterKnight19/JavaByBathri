@@ -8,7 +8,7 @@ public class multiThreading extends Thread {
                 //          }
         }
         catch (InterruptedException e){
-        
+
         }
         for(int i = 0;i <=5;i++){
             System.out.println("the thread " +Thread.currentThread().getName() +" is running the value is "+i);
